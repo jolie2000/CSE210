@@ -4,9 +4,11 @@ using System.Collections.Generic;
 public class Program
 {
     // Exceeding core requirements:
-    // This program contains a library of three scriptures and randomly chooses one
-    // at the beginning of each practice session. The core requirement is to store
-    // one scripture, so the library gives the user more varied practice.
+    // Each practice session stores and manages one Scripture object, as required.
+    // As a creativity extension, the program keeps a library of three scripture
+    // choices and randomly selects one object when a session begins. The Scripture
+    // class still encapsulates one reference and its text; the library only gives
+    // the user more varied practice.
     //
     // It also chooses only words that are still visible when hiding words. This
     // means every Enter key press hides new words and the user never loses a turn
